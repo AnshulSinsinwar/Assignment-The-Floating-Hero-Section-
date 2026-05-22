@@ -35,9 +35,7 @@ Open [http://localhost:3000](http://localhost:3000)
 ```
 components/
 ├── FloatingCard.tsx       # Reusable pill card + PortalCard variant
-├── FloatingVisualization.tsx  # Positions all cards in the scene
-├── HeroSection.tsx        # Left text + right visualization layout
-├── Navbar.tsx             # Sticky nav with dark mode toggle
+├── HeroSection.tsx        # Left text + right floating cards layout
 ├── BackgroundBlobs.tsx    # Ambient blob background
 └── DarkModeToggle.tsx     # Sun/Moon animated toggle
 lib/
