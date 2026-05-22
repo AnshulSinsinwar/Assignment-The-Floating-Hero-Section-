@@ -4,27 +4,27 @@ export function BackgroundBlobs() {
       {/* ─── Desktop blobs (lg+) ──────────────────────────────────── */}
       <div className="hidden lg:block" aria-hidden="true">
         {/* Left side — 3 stacked pills at bottom */}
-        <div className="bg-pill -left-28 bottom-[290px] h-[88px] w-[280px] -rotate-[10deg]" />
-        <div className="bg-pill -left-16 bottom-[180px] h-[88px] w-[300px]" />
-        <div className="bg-pill -left-8 bottom-[70px] h-[88px] w-[480px]" />
+        <div className="bg-pill -left-28 bottom-72.5 h-22 w-70 rotate-[10]" />
+        <div className="bg-pill -left-16 bottom-45 h-22 w-75" />
+        <div className="bg-pill -left-8 bottom-17.5 h-22 w-120" />
 
         {/* Right side — 3 stacked pills at top */}
-        <div className="bg-pill right-[-78px] top-[112px] h-[88px] w-[280px] rotate-[8deg]" />
-        <div className="bg-pill right-[-45px] top-[224px] h-[88px] w-[400px]" />
-        <div className="bg-pill right-[-24px] top-[334px] h-[88px] w-[300px]" />
+        <div className="bg-pill -right-19.5 top-28 h-22 w-70" />
+        <div className="bg-pill -right-11.5 top-56 h-22 w-100" />
+        <div className="bg-pill -right-6 top-83.5 h-22 w-75" />
       </div>
 
       {/* ─── Mobile/tablet blobs ──────────────────────────────────── */}
       <div className="block lg:hidden" aria-hidden="true">
         {/* Left side — small pills */}
-        <div className="bg-pill -left-10 bottom-[150px] h-[36px] w-[75px] rotate-[170deg]" />
-        <div className="bg-pill -left-6 bottom-[105px] h-[36px] w-[80px] rotate-[-180deg] rounded-tl-[90px] rounded-bl-[90px]" />
-        <div className="bg-pill -left-2 bottom-[60px] h-[36px] w-[134px] rotate-[-180deg] rounded-tl-[90px] rounded-bl-[90px]" />
+        <div className="bg-pill -left-10 bottom-37.5 h-9 w-18.75 rotate-170" />
+        <div className="bg-pill -left-6 bottom-26.25 h-9 w-20 rotate-[-180] rounded-tl-[90] rounded-bl-[90]" />
+        <div className="bg-pill -left-2 bottom-15 h-9 w-33.5 rotate-[-180] rounded-tl-[90] rounded-bl-[90]" />
 
         {/* Right side — small pills */}
-        <div className="bg-pill right-[-40px] top-[110px] h-[36px] w-[99px] rotate-[9deg] rounded-tl-[90px] rounded-bl-[90px]" />
-        <div className="bg-pill right-[-25px] top-[155px] h-[36px] w-[143px] rounded-tl-[90px] rounded-bl-[90px]" />
-        <div className="bg-pill right-[-15px] top-[200px] h-[36px] w-[86px] rounded-tl-[90px] rounded-bl-[90px]" />
+        <div className="bg-pill -right-10 top-27.5 h-9 w-24.75 rotate-[9] rounded-tl-[90] rounded-bl-[90]" />
+        <div className="bg-pill right-6.25 top-38.75 h-9 w-35.75 rounded-tl-[90] rounded-bl-[90]" />
+        <div className="bg-pill -right-3.75 top-50 h-9 w-21.5 rounded-tl-[90] rounded-bl-[90]" />
       </div>
     </>
   );
