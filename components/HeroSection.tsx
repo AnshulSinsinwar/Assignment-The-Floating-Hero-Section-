@@ -160,9 +160,8 @@ export function HeroSection() {
         {/* Tasks — bottom center */}
         <FloatingCard
           color="dark"
-          rotation={-5.2}
+          rotation={0}
           icon={<TaskIcon size={64} />}
-          iconRotation={5.2}
           label="Tasks"
           floatClass="float-mid"
           enterDelay="enter-d4"
