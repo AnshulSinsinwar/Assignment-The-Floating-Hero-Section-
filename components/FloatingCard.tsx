@@ -194,7 +194,7 @@ export function MobileFloatingCard({
     >
       <div
         className={cn(
-          "card-enter flex items-center !h-[46px] !rounded-[100px] !px-[16px] py-[10px] cursor-pointer card-hover w-full",
+          "card-enter flex items-center h-11.5! rounded-[100px]! px-4 py-2.5 cursor-pointer card-hover w-full",
           styles.bg,
           styles.shadow,
           enterDelay
@@ -254,7 +254,7 @@ export function PortalCard({
         className={cn(
           "card-base card-hover card-enter w-full",
           "bg-[#9ea6ef] shadow-[0_14px_32px_rgba(106,123,214,0.30)]",
-          "!pl-10 overflow-hidden",
+          "pl-10! overflow-hidden",
           enterDelay
         )}
         style={{
@@ -276,7 +276,7 @@ export function PortalCard({
           </p>
           {message && (
             <p
-              className="mt-1 max-w-[180px] text-[11px] leading-tight text-[#797DA7]"
+              className="mt-1 max-w-45 text-[11px] leading-tight text-[#797DA7]"
               style={{
                 display: "-webkit-box",
                 WebkitBoxOrient: "vertical",
@@ -318,7 +318,7 @@ export function MobilePortalCard({
     >
       <div
         className={cn(
-          "card-enter flex items-center !h-[46px] !rounded-[90px] overflow-hidden !px-[14px] cursor-pointer card-hover w-full",
+          "card-enter flex items-center h-11.5! rounded-[90px]! overflow-hidden px-3.5! cursor-pointer card-hover w-full",
           "bg-[#9ea6ef] shadow-[0_14px_32px_rgba(106,123,214,0.30)]",
           enterDelay
         )}
